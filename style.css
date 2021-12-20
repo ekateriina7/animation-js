@@ -4,3 +4,46 @@
   box-sizing: border-box;
 }
 
+.cookie-container {
+  background: linear-gradient(135deg, #CE9FFC 10%, #7367F0 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  width: 25rem;
+  height: 15rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+}
+
+.cookie{
+  padding-right: 1.5rem;
+}
+
+.text{
+  width: 50%;
+}
+
+.cookie-title{
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.cookie-subtitle{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button {
+  border-style: none;
+  padding: 0.5rem 1rem;
+  color: #CE9FFC;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
