@@ -18,14 +18,17 @@
   padding: 1rem;
   font-family: 'Poppins', sans-serif;
   align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .cookie{
   padding-right: 1.5rem;
+  overflow: visible;
 }
 
 .text{
-  width: 50%;
+  width: 65%;
 }
 
 .cookie-title{
@@ -35,7 +38,8 @@
 
 .cookie-subtitle{
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  padding: 1rem 0;
 }
 
 button {
